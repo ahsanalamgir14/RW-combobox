@@ -49,7 +49,7 @@ const App = () => {
         />
         <h2 className='title'>React Combo Box</h2>
         <div>
-          <a href='https://github.com/Codebrahma/React-combobox'>
+          <a href='https://github.com/ahsanalamgir14/RW-combobox'>
             <img
               src={GithubLogo}
               alt='github-logo'
