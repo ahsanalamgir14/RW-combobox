@@ -2,20 +2,20 @@
 
 > A flexible and easy accessible combo-box for the React JS.
 
-[![NPM](https://img.shields.io/npm/v/react-responsive-combo-box.svg)](https://www.npmjs.com/package/react-responsive-combo-box) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/246cf76a-5156-4e4f-bb83-c98de91b581f/deploy-status)](https://app.netlify.com/sites/react-combobox/deploys)
+[![NPM](https://img.shields.io/npm/v/rw-combobox-react.svg)](https://www.npmjs.com/package/rw-combobox-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/246cf76a-5156-4e4f-bb83-c98de91b581f/deploy-status)](https://app.netlify.com/sites/react-combobox/deploys)
 
 ## Install
 
 ```bash
-npm install --save react-responsive-combo-box
+npm install --save rw-combobox-react
 ```
 
 ## Usage
 
 ```tsx
 import React from 'react'
-import ComboBox from 'react-responsive-combo-box'
-import 'react-responsive-combo-box/dist/index.css'
+import ComboBox from 'rw-combobox-react'
+import 'rw-combobox-react/dist/index.css'
 
 const ComboBoxExample = () => {
   const data = [

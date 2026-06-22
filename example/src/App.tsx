@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
-import ComboBox from 'react-responsive-combo-box'
-import 'react-responsive-combo-box/dist/index.css'
+import ComboBox from 'rw-combobox-react'
+import 'rw-combobox-react/dist/index.css'
 import './app.css'
 
 import CodebrahmaLogo from './images/codebrahma1.png'

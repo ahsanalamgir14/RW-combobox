@@ -19,8 +19,8 @@ import Props from './components/props.js'
 
 ```js
 import React, { useState } from 'react'
-import ComboBox from 'react-responsive-combo-box'
-import 'react-responsive-combo-box/dist/index.css'
+import ComboBox from 'rw-combobox-react'
+import 'rw-combobox-react/dist/index.css'
 
 const App = () => {
   const options = [
@@ -60,8 +60,8 @@ const App = () => {
 
 ```js
 import React, { useState } from 'react'
-import ComboBox from 'react-responsive-combo-box'
-import 'react-responsive-combo-box/dist/index.css'
+import ComboBox from 'rw-combobox-react'
+import 'rw-combobox-react/dist/index.css'
 
 import './index.css'
 
@@ -101,8 +101,8 @@ const App = () => {
 
 ```js
 import React, { useState } from 'react'
-import ComboBox from 'react-responsive-combo-box'
-import 'react-responsive-combo-box/dist/index.css'
+import ComboBox from 'rw-combobox-react'
+import 'rw-combobox-react/dist/index.css'
 
 const App = () => {
   const [selectedOption, setSelectedOption] = useState('')
@@ -137,8 +137,8 @@ const App = () => {
 
 ```js
 import React, { useState } from 'react'
-import ComboBox from 'react-responsive-combo-box'
-import 'react-responsive-combo-box/dist/index.css'
+import ComboBox from 'rw-combobox-react'
+import 'rw-combobox-react/dist/index.css'
 
 const App = () => {
   const options = [
@@ -173,8 +173,8 @@ const App = () => {
 
 ```js
 import React, { useState } from 'react'
-import ComboBox from 'react-responsive-combo-box'
-import 'react-responsive-combo-box/dist/index.css'
+import ComboBox from 'rw-combobox-react'
+import 'rw-combobox-react/dist/index.css'
 
 const App = () => {
   const options = [
@@ -206,8 +206,8 @@ const App = () => {
 
 ```js
 import React, { useState } from 'react'
-import ComboBox from 'react-responsive-combo-box'
-import 'react-responsive-combo-box/dist/index.css'
+import ComboBox from 'rw-combobox-react'
+import 'rw-combobox-react/dist/index.css'
 
 const App = () => {
   const options = [
@@ -239,8 +239,8 @@ const App = () => {
 
 ```js
 import React, { useState } from 'react'
-import ComboBox from 'react-responsive-combo-box'
-import 'react-responsive-combo-box/dist/index.css'
+import ComboBox from 'rw-combobox-react'
+import 'rw-combobox-react/dist/index.css'
 import { AiFillCaretDown, AiFillFilter } from 'react-icons/ai'
 
 const App = () => {
@@ -259,12 +259,10 @@ const App = () => {
     <div>
       <ComboBox
         options={options}
-        renderRightElement={()=> <AiFillCaretDown /> }
-        renderLeftElement={()=> <AiFillFilter /> }
-
+        renderRightElement={() => <AiFillCaretDown />}
+        renderLeftElement={() => <AiFillFilter />}
       />
     </div>
   )
 }
 ```
-
