@@ -42,4 +42,4 @@ To view the demo of the Combo Box component in the code sandbox. Click <a style=
 
 ## License
 
-MIT © [ashwinKumar0505](https://github.com/ashwinKumar0505)
+MIT © [ahsanalamgir14](https://github.com/ahsanalamgir14)
